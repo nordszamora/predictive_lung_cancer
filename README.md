@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 $ python manage.py runserver
 ```
-3.) Run reactjs locally.
+3.) Open another terminal and run reactjs locally.
 ```
 $ cd frontend
 
