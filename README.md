@@ -5,3 +5,10 @@ The lung cancer predictive ML project is use to predict a cancer based on the da
 
 #### Note:
 The project may not that accurate it may encounter a bad result due to a lack and imbalance data.
+
+### Installation
+Install this project on your local machine and here are following steps.
+
+```
+$ git clone https://github.com/nordszamora/predictive_lung_cancer
+```
