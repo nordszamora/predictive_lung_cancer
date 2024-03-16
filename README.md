@@ -9,13 +9,13 @@ The project may not that accurate it may encounter a bad result due to a lack an
 ### Installation
 Install this project on your local machine and here are following steps.
 
-1.) Open your terminal and type git command
+1.) Open your terminal and type git command.
 ```
 $ git clone https://github.com/nordszamora/predictive_lung_cancer
 
 $ cd predictive_lung_cancer
 ```
-2.) Run django rest locally
+2.) Run django rest locally.
 ```
 $ cd MODEL_API
 
@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 $ python manage.py runserver
 ```
-3.) Run reactjs locally
+3.) Run reactjs locally.
 ```
 $ cd frontend
 
