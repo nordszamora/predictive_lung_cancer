@@ -15,7 +15,7 @@ $ git clone https://github.com/nordszamora/predictive_lung_cancer
 ```
 2.) Run django rest locally
 ```
-$ cd Model_API
+$ cd MODEL_API
 
 $ pip install -r requirements.txt
 
