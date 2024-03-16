@@ -7,7 +7,7 @@ import joblib
 
 try:
    # Model path
-   model_path = os.path.join(os.path.dirname(__file__), 'model/adaboost_model.joblib')
+   model_path = os.path.join(os.path.dirname(__file__), 'model/predictive_lungcancer_model.joblib')
 except FileNotFoundError as err:
    pass
 
