@@ -9,6 +9,7 @@ export default function App() {
   const [close, setClose] = useState(true);
   const [result, setResult] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const [field, setField] = useState({
     smoking: "",
     fatigue: "",
@@ -33,6 +34,7 @@ export default function App() {
 
   const predict = async(e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       // Model API
@@ -49,6 +51,8 @@ export default function App() {
       setError(<Alert color="warning">Select Yes / No</Alert>);
       setResult('');
     }
+
+    setLoading(false);
   }
 
   return (
@@ -132,7 +136,9 @@ export default function App() {
                 <option value="no">No</option>
               </Input>
             </FormGroup>
-            <Button color="danger">Submit</Button>
+            <Button color="danger" disabled={loading}>
+              {loading ? 'Loading...' : 'Submit'}
+            </Button>
             <div className="mt-3">
               {error && <p>{error}</p>}
               {result && <p>{result}</p>}
