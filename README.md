@@ -9,6 +9,12 @@ The project may not that accurate it may encounter a bad result due to a lack an
 ### Installation
 Install this project on your local machine and here are following steps.
 
+1.) Open your terminal and type
 ```
 $ git clone https://github.com/nordszamora/predictive_lung_cancer
+```
+2.) Django Rest
+```
+$ cd Model_API
+
 ```
