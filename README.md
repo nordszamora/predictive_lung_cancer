@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 $ python manage.py runserver
 ```
-3.) Run reactjs on locally
+3.) Run reactjs locally
 ```
 $ cd frontend
 
@@ -29,3 +29,4 @@ $ npm install
 
 $ npm run dev
 ```
+4.) Open your browser and run http://localhost:5173
