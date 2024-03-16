@@ -4,4 +4,4 @@
 The lung cancer predictive ML project are use to predict a cancer based on the data of smoking intake and common symptoms on it. It uses a dataset in kaggle ([link here](https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer)) to select a smoking intake & symptoms features and fed it into a model using svm with accuracy of 83%.
 
 #### Note:
-The project may not that accurate due to a lack and imbalanace data.
+The project may not that accurate it may encounter a bad result due to a lack and imbalance data.
