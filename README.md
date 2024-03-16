@@ -12,6 +12,8 @@ Install this project on your local machine and here are following steps.
 1.) Open your terminal and type git command
 ```
 $ git clone https://github.com/nordszamora/predictive_lung_cancer
+
+$ cd predictive_lung_cancer
 ```
 2.) Run django rest locally
 ```
